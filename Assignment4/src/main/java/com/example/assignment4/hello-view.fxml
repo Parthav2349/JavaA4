@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment4.HelloController">
+   <children>
+      <HBox alignment="CENTER" layoutX="30.0" layoutY="200.0" prefHeight="100.0" prefWidth="540.0" spacing="20.0" style="-fx-background-color: pink;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#books" prefHeight="100.0" prefWidth="100.0" text="Books" />
+            <Button mnemonicParsing="false" onAction="#authors" prefHeight="100.0" prefWidth="100.0" text="Authors" />
+            <Button mnemonicParsing="false" onAction="#members" prefHeight="100.0" prefWidth="100.0" text="Members" />
+            <Button mnemonicParsing="false" onAction="#loans" prefHeight="100.0" prefWidth="100.0" text="Loans" />
+            <Button mnemonicParsing="false" onAction="#bookGenres" prefHeight="100.0" prefWidth="100.0" text="Book Genres" />
+         </children>
+      </HBox>
+      <Label alignment="CENTER" layoutX="100.0" layoutY="56.0" prefHeight="75.0" prefWidth="400.0" text="Library Management System" textAlignment="JUSTIFY" textFill="#fc0000" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0">
+         <font>
+            <Font name="Calibri Bold" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
